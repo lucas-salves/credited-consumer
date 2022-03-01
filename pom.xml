@@ -17,7 +17,6 @@
         <java.version>11</java.version>
     </properties>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/com.starkbank/sdk -->
         <dependency>
             <groupId>com.starkbank</groupId>
             <artifactId>sdk</artifactId>

@@ -5,7 +5,7 @@
 package br.stark.creditedconsumer.interactors;
 
 import br.stark.creditedconsumer.repository.TransferRepository;
-import com.starkbank.*;
+//import com.starkbank.*;
 import br.stark.creditedconsumer.model.Transfer;
 
 /**

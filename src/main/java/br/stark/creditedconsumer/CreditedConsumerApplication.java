@@ -19,15 +19,7 @@ public class CreditedConsumerApplication {
     public static void main(String[] args) throws Exception {
         SpringApplication.run(CreditedConsumerApplication.class, args);
 
-        //facade
-        var transferCreator = new TransferUseCase(new StarkApi());
-
-        Transfer transfer = new Transfer();
-        transfer.setAmount(new BigDecimal("4010"));
-        transfer.setFee(new BigDecimal("200"));
-
-//            transfer.setFee(dto.getEvent().getLog().getInvoice().getFee());
-        transferCreator.execute(transfer);
+        CreditWorker.main(null);
 
     }
 
